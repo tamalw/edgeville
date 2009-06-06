@@ -1,0 +1,3 @@
+= Edgeville
+
+Gem for accessing player and GE info from the popular MMORPG, Runescape.
