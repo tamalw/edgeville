@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = %q{2009-06-09}
   s.description = %q{Gem for accessing player and GE info from the popular MMORPG, Runescape.}
   s.email = %q{tamal@firblitz.com}
-  s.extra_rdoc_files = ["lib/edgeville.rb", "README.rdoc"]
-  s.files = ["lib/edgeville.rb", "Manifest", "Rakefile", "README.rdoc", "edgeville.gemspec"]
+  s.extra_rdoc_files = ["CHANGELOG", "lib/edgeville.rb", "README.rdoc"]
+  s.files = ["CHANGELOG", "edgeville.gemspec", "init.rb", "lib/edgeville.rb", "Manifest", "Rakefile", "README.rdoc"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/firblitz/edgeville}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Edgeville", "--main", "README.rdoc"]
