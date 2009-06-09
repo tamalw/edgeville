@@ -4,7 +4,13 @@ Gem for accessing player and GE info from the popular MMORPG, Runescape.
 
 == Install
 
+As a gem:
+
   gem install firblitz-edgeville --source http://gems.github.com
+
+Or as a Rails plugin:
+
+  script/plugin install git://github.com/firblitz/edgeville.git
 
 == Usage
 
