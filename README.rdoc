@@ -1,3 +1,14 @@
 = Edgeville
 
 Gem for accessing player and GE info from the popular MMORPG, Runescape.
+
+== Install
+
+  gem install firblitz-edgeville --source http://gems.github.com
+
+== Usage
+
+  >> foo = Edgeville::Player.new("Firblitz")
+  => #<Edgeville::Player:0x50cb98 @name="Firblitz">
+  >> foo.skills.inspect
+  => "{:thieving=>{:level=>71, :rank=>66301, :xp=>817484}, :magic=>{:level=>85, :rank=>142689, :xp=>3345947}, :summoning=>{:level=>83, :rank=>15101, :xp=>2690399}, :crafting=>{:level=>81, :rank=>28919, :xp=>2393278}, :defence=>{:level=>93, :rank=>64039, :xp=>7198169}, :slayer=>{:level=>91, :rank=>14526, :xp=>6122641}, :cooking=>{:level=>83, :rank=>182315, :xp=>2697387}, :smithing=>{:level=>76, :rank=>46631, :xp=>1351496}, :strength=>{:level=>93, :rank=>130382, :xp=>7324521}, :farming=>{:level=>70, :rank=>55435, :xp=>763172}, :woodcutting=>{:level=>83, :rank=>222709, :xp=>2772152}, :mining=>{:level=>73, :rank=>167671, :xp=>1061676}, :hitpoints=>{:level=>96, :rank=>74512, :xp=>9922679}, :runecraft=>{:level=>71, :rank=>38540, :xp=>872314}, :fletching=>{:level=>84, :rank=>210337, :xp=>3017905}, :herblore=>{:level=>70, :rank=>55115, :xp=>789781}, :ranged=>{:level=>89, :rank=>86743, :xp=>5127740}, :construction=>{:level=>69, :rank=>112540, :xp=>713899}, :fishing=>{:level=>80, :rank=>179070, :xp=>1987764}, :overall=>{:level=>1929, :rank=>37481, :xp=>77300706}, :agility=>{:level=>72, :rank=>39583, :xp=>940457}, :prayer=>{:level=>74, :rank=>56816, :xp=>1106485}, :hunter=>{:level=>64, :rank=>80994, :xp=>417286}, :firemaking=>{:level=>80, :rank=>101712, :xp=>2023101}, :attack=>{:level=>98, :rank=>65713, :xp=>11842973}}"
